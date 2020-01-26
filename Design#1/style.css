@@ -1,0 +1,70 @@
+/*-----------------------------------------------------------------------------------
+
+    Template Name: 
+    Template URI: 
+    Description: T
+    Author: 
+    Author 
+    Version: 1.0
+
+-----------------------------------------------------------------------------------
+
+
+
+/* Base CSS */
+* {
+    margin: 0;
+    padding: 0;
+}
+    .alignleft {
+        float: left;
+        margin-right: 15px;
+    }
+    .alignright {
+        float: right;
+        margin-left: 15px;
+    }
+    .aligncenter {
+        display: block;
+        margin: 0 auto 15px;
+    }
+    a:focus { outline: 0 solid }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+
+    a:hover, a:focus{
+        text-decoration: none;
+        outline: none;
+        border: none;
+    }
+    
+
+.slide{
+    height: 400px;
+    } 
+.slide-bg-1{
+    background: url(images/event-1.jpg) no-repeat 0 0 / 100% 100%;
+}.slide-bg-2{
+    background: url(images/event-2.jpg) no-repeat 0 0 / 100% 100%;
+}.slide-bg-3{
+    background: url(images/event-1.jpg) no-repeat 0 0 / 100% 100%;
+}.slide-bg-4{
+    background: url(images/newsbg-1.jpg) no-repeat 0 0 / 100% 100%;
+}
+.owl-dots{
+    text-align: center;
+    position: relative;
+    bottom: 110px;
+}
+.owl-dot {
+     display: inline-block;
+      background-color: #999;
+      color: #fff;
+      padding: 5px;
+      margin-right: 5px;
+      font-size: 12px;
+      margin-top: 20px;
+}
